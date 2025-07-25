@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Control Moderno</title>
+    <!-- Archivos CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- FullCalendar CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css">
+    <!-- Bootstrap CSS para estilos -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Iconos Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Panel de Control</h1>
+
+        <div class="row">
+            <!-- Componente de Calendario -->
+            <div class="col-md-8 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">Calendario</h2>
+                    </div>
+                    <div class="card-body">
+                        <div id="calendar"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Panel de Detalles de Evento -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">Detalles del Evento</h2>
+                    </div>
+                    <div class="card-body" id="event-details">
+                        <p class="text-muted">Haz clic en un evento para ver los detalles</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bloque de Resultados con Paginación -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h2 class="card-title">Resultados</h2>
+                        <div class="form-group">
+                            <label for="items-per-page">Elementos por página:</label>
+                            <select id="items-per-page" class="form-select form-select-sm">
+                                <option value="5">5</option>
+                                <option value="10" selected>10</option>
+                                <option value="20">20</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div id="results-container" class="row"></div>
+                        <div id="pagination" class="d-flex justify-content-center mt-4">
+                            <nav aria-label="Navegación de páginas">
+                                <ul class="pagination">
+                                    <li class="page-item disabled" id="prev-page">
+                                        <a class="page-link" href="#" tabindex="-1">Anterior</a>
+                                    </li>
+                                    <li class="page-item active" id="page-1">
+                                        <a class="page-link" href="#">1</a>
+                                    </li>
+                                    <li class="page-item" id="next-page">
+                                        <a class="page-link" href="#">Siguiente</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección de Archivos -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">Archivos</h2>
+                    </div>
+                    <div class="card-body">
+                        <div id="files-container" class="row"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Detalles de Evento -->
+    <div class="modal fade" id="eventModal" tabindex="-1" aria-labelledby="eventModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="eventModalLabel">Detalles del Evento</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body" id="modal-event-details">
+                    <!-- Los detalles del evento se insertarán aquí -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Archivos JavaScript -->
+    <!-- FullCalendar JS -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS Personalizado -->
+    <script src="calendar.js"></script>
+    <script src="results.js"></script>
+    <script src="files.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

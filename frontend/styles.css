@@ -1,0 +1,266 @@
+:root {
+    --color-primario: #4361ee;
+    --color-secundario: #3f37c9;
+    --color-acento: #4895ef;
+    --color-texto: #2b2d42;
+    --color-texto-secundario: #8d99ae;
+    --color-fondo: #f8f9fa;
+    --color-borde: #e9ecef;
+    --sombra-suave: 0 4px 6px rgba(0, 0, 0, 0.05);
+    --sombra-media: 0 6px 12px rgba(0, 0, 0, 0.1);
+    --transicion-rapida: all 0.25s ease;
+}
+
+/* Estilos Base */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: var(--color-texto);
+}
+
+/* Componente de Tarjetas */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: var(--sombra-suave);
+    transition: var(--transicion-rapida);
+    overflow: hidden;
+    margin-bottom: 24px;
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: var(--sombra-media);
+    transform: translateY(-2px);
+}
+
+.card-header {
+    background-color: white;
+    border-bottom: 1px solid var(--color-borde);
+    padding: 18px 24px;
+    font-weight: 600;
+    color: var(--color-primario);
+}
+
+.card-title {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+.card-body {
+    padding: 24px;
+}
+
+/* Estilos para Calendario */
+#calendar {
+    height: 650px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.fc-event {
+    border: none;
+    border-radius: 6px;
+    padding: 6px 8px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: var(--transicion-rapida);
+}
+
+.fc-event:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.fc-event-title {
+    font-weight: 500;
+}
+
+.fc-toolbar-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/* Estilos para Resultados */
+.result-card {
+    border: 1px solid var(--color-borde);
+    transition: var(--transicion-rapida);
+    height: 100%;
+}
+
+.result-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--sombra-media);
+    border-color: var(--color-acento);
+}
+
+.result-card .card-title {
+    font-size: 1.15rem;
+    margin-bottom: 12px;
+    color: var(--color-primario);
+}
+
+.result-card .card-subtitle {
+    font-size: 0.85rem;
+    color: var(--color-texto-secundario);
+    margin-bottom: 12px;
+}
+
+.result-card .card-text {
+    color: var(--color-texto-secundario);
+    font-size: 0.95rem;
+    margin-bottom: 16px;
+}
+
+/* Estilos para Archivos */
+.file-card {
+    text-align: center;
+    transition: var(--transicion-rapida);
+}
+
+.file-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--sombra-media);
+}
+
+.file-icon {
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+    color: var(--color-primario);
+}
+
+.file-name {
+    font-weight: 500;
+    margin-bottom: 8px;
+    word-break: break-word;
+    color: var(--color-texto);
+}
+
+.file-type, .file-size {
+    color: var(--color-texto-secundario);
+    font-size: 0.85rem;
+}
+
+/* Paginación */
+.pagination {
+    margin-top: 24px;
+}
+
+.page-link {
+    border: none;
+    color: var(--color-primario);
+    margin: 0 4px;
+    border-radius: 8px !important;
+}
+
+.page-item.active .page-link {
+    background-color: var(--color-primario);
+    border-color: var(--color-primario);
+}
+
+/* Detalles de Evento */
+.event-details-container {
+    padding: 16px;
+}
+
+.event-title {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    color: var(--color-primario);
+}
+
+.event-time, .event-location {
+    font-size: 0.95rem;
+    color: var(--color-texto-secundario);
+    margin-bottom: 8px;
+}
+
+.event-description {
+    margin-top: 16px;
+    color: var(--color-texto);
+    line-height: 1.7;
+}
+
+/* Modal */
+.modal-content {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.modal-header {
+    border-bottom: 1px solid var(--color-borde);
+    background-color: var(--color-primario);
+    color: white;
+}
+
+.modal-title {
+    font-weight: 600;
+}
+
+/* Botones */
+.btn {
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 500;
+    transition: var(--transicion-rapida);
+}
+
+.btn-primary {
+    background-color: var(--color-primario);
+    border-color: var(--color-primario);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-secundario);
+    border-color: var(--color-secundario);
+}
+
+/* Ajustes Responsivos */
+@media (max-width: 992px) {
+    #calendar {
+        height: 550px;
+    }
+    
+    .card-header {
+        padding: 16px 20px;
+    }
+    
+    .card-body {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #calendar {
+        height: 450px;
+    }
+    
+    .card {
+        margin-bottom: 16px;
+    }
+    
+    .file-icon {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-header {
+        padding: 12px 16px;
+    }
+    
+    .card-body {
+        padding: 16px;
+    }
+    
+    .result-card .card-title {
+        font-size: 1.05rem;
+    }
+}
