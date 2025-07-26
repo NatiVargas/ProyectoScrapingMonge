@@ -4,7 +4,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from mistralai import Mistral
 
-# Cargar el .env desde la raíz del proyecto
+# Cargar el .env desde la raíz del proyecto para evitar que se produscan errores de la licencia de la ia
 ENV_PATH = Path(__file__).resolve().parent.parent / ".env"
 load_dotenv(dotenv_path=ENV_PATH)
 
