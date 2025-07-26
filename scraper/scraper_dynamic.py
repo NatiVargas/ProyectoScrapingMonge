@@ -17,7 +17,7 @@ from db.database import obtener_conexion, guardar_archivo
 from db.logger import logger
 from datetime import datetime
 
-BASE_URL = "http://localhost:5500/"  # Puerto donde corre el frontend Flask
+BASE_URL = "http://localhost:5500/"  # Puerto donde corre el frontend Flask EN EL CUAL ESTA CORRIENDO EL FRONTEND
 CARPETA_DESCARGAS = "descargas_dinamicas"
 TIEMPO_ESPERA = 10  # Segundos para esperar elementos
 SCROLL_PAUSA = 2    # Pausa entre scrolls para cargar contenido lazy
