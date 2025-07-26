@@ -24,3 +24,4 @@ tqdm
 flask          # If you plan to use APIs
 flask-cors     # To allow requests from other sources
 pandas         # To allow manipulation of data bulk
+pip install mistralai python-dotenv

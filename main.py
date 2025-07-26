@@ -187,7 +187,7 @@ def exportar_archivos_a_json(ruta_salida="data/files.json"):
             json.dump(archivos, f, indent=2, ensure_ascii=False)
         print(f"Archivo '{ruta_salida}' generado correctamente con {len(archivos)} archivos.")
     except Exception as e:
-        print("Error al generar files.json:", e)
+        print("Error al generar files.json rafa:", e)
 
 if __name__ == "__main__":
     print("Lanzando: Reto Técnico Completo VoiceFlip...")

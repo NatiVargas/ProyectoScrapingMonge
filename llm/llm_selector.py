@@ -1,59 +1,65 @@
-
-# -*- coding: utf-8 -*-
+# llm/llm_selector.py
 import os
-from openai import OpenAI
+from pathlib import Path
 from dotenv import load_dotenv
+from mistralai import Mistral
 
-# Cargar variables de entorno desde el archivo .env si es necesario
-load_dotenv()
+# Cargar el .env desde la raíz del proyecto
+ENV_PATH = Path(__file__).resolve().parent.parent / ".env"
+load_dotenv(dotenv_path=ENV_PATH)
 
-# Configuración del cliente OpenAI para Azure
-ENDPOINT = "https://voiceflip-openai.openai.azure.com/"
-DEPLOYMENT_ID = "gpt-4o"  
-API_KEY = "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"
-API_VERSION = "2025-01-01-preview"
+API_KEY = os.getenv("MISTRAL_API_KEY")
+MODEL = os.getenv("MISTRAL_MODEL", "mistral-small-latest")
 
-client = OpenAI(
-    api_key=API_KEY,
-    base_url=f"{ENDPOINT}/openai/deployments/{DEPLOYMENT_ID}",
-    default_headers={"api-key": API_KEY},
-)
+if not API_KEY:
+    raise ValueError("MISTRAL_API_KEY no está definida en el archivo .env")
 
-# Función para generar un selector CSS o XPath usando un modelo LLM
+# Crear cliente Mistral
+client = Mistral(api_key=API_KEY)
+
 def generar_selector(fragmento_html: str, objetivo: str, modo: str = "css") -> str:
     """
-    Utiliza un modelo LLM para sugerir un selector CSS o XPath.
-    :param fragmento_html: Fragmento HTML que contiene el objetivo
-    :param objetivo: Descripción del contenido a extraer
-    :param modo: "css" o "xpath"
-    :return: Selector sugerido
+    Utiliza Mistral para sugerir un selector CSS o XPath.
+    :param fragmento_html: Fragmento HTML que contiene el objetivo.
+    :param objetivo: Descripción del contenido a extraer.
+    :param modo: "css" o "xpath".
+    :return: Selector sugerido (string).
     """
     prompt = (
         f"Eres un experto en scraping web. Dado el siguiente fragmento HTML, "
-        f"proporciona un selector válido {modo.upper()} para extraer el '{objetivo}':\n\n{fragmento_html}"
+        f"proporciona únicamente un selector válido {modo.upper()} para extraer el '{objetivo}'. "
+        f"No agregues explicaciones, devuelve solo el selector.\n\n{fragmento_html}"
     )
-    respuesta = client.chat.completions.create(
-        model=DEPLOYMENT_ID,
-        messages=[
-            {"role": "system", "content": "Eres un experto en HTML, scraping web y automatización. Responde solo con el selector limpio."},
-            {"role": "user", "content": prompt}
-        ],
-        temperature=0.4,
-        top_p=1.0,
-        max_tokens=100
-    )
-    return respuesta.choices[0].message.content.strip()
 
-# Ejemplo de uso
+    try:
+        resp = client.chat.complete(
+            model=MODEL,
+            messages=[
+                {
+                    "role": "system",
+                    "content": "Eres un experto en HTML, scraping web y automatización. Responde solo con el selector limpio."
+                },
+                {"role": "user", "content": prompt},
+            ],
+            temperature=0.2,
+            max_tokens=100,
+        )
+
+        # La librería retorna el texto en:
+        # resp.choices[0].message.content   (SDK mistralai >= 0.1.0)
+        return resp.choices[0].message.content.strip()
+
+    except Exception as e:
+        # Loguea / propaga el error según te convenga
+        raise RuntimeError(f"Error llamando a Mistral: {e}") from e
+
+
+# Prueba rápida directa (si ejecutas este módulo solo)
 if __name__ == "__main__":
-    html_ejemplo = """
+    html = """
     <div class='product-card'>
         <div class='product-title'>Laptop Gamer</div>
         <div class='product-price'>₡350000</div>
     </div>
     """
-    objetivo = "precio del producto"
-    tipo_selector = "css"  # o "xpath"
-    # Generar el selector usando el modelo
-    selector = generar_selector(html_ejemplo, objetivo, tipo_selector)
-    print(f"Selector sugerido ({tipo_selector}): {selector}")
+    print(generar_selector(html, "precio del producto", modo="css"))

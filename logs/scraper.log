@@ -4017,3 +4017,387 @@ LINE 2: ...NSERT INTO productos (titulo, precio, url_imagen, url_produc...
 2025-07-25 02:24:52,831 [INFO] 127.0.0.1 - - [25/Jul/2025 02:24:52] "GET /data/events.json HTTP/1.1" 200 -
 2025-07-25 02:24:52,881 [INFO] 127.0.0.1 - - [25/Jul/2025 02:24:52] "[35m[1mGET /data/files.json HTTP/1.1[0m" 500 -
 2025-07-25 02:24:52,892 [INFO] 127.0.0.1 - - [25/Jul/2025 02:24:52] "GET /data/results.json HTTP/1.1" 200 -
+2025-07-25 13:11:54,699 [INFO] === INICIO: Ejecución completa del sistema ===
+2025-07-25 13:11:54,700 [INFO] Iniciando scraping con Selenium desde Tienda Monge...
+2025-07-25 13:11:54,700 [INFO] Iniciando scraping en Tienda Importadora Monge...
+2025-07-25 13:14:17,901 [INFO] Scraping finalizado.
+2025-07-25 13:14:17,903 [INFO] Scraping con Selenium completado.
+2025-07-25 13:14:17,904 [INFO] Iniciando scraping de archivos estáticos (localhost)...
+2025-07-25 13:14:17,962 [INFO] Iniciando scraping desde el sitio local
+2025-07-25 13:14:22,038 [ERROR] Ocurrió un error crítico durante la ejecución.
+2025-07-25 13:14:45,471 [INFO] === INICIO: Ejecución completa del sistema ===
+2025-07-25 13:14:45,472 [INFO] Iniciando scraping con Selenium desde Tienda Monge...
+2025-07-25 13:14:45,472 [INFO] Iniciando scraping en Tienda Importadora Monge...
+2025-07-25 13:17:29,206 [INFO] Scraping finalizado.
+2025-07-25 13:17:29,208 [INFO] Scraping con Selenium completado.
+2025-07-25 13:17:29,209 [INFO] Iniciando scraping de archivos estáticos (localhost)...
+2025-07-25 13:17:29,273 [INFO] Iniciando scraping desde el sitio local
+2025-07-25 13:17:33,310 [ERROR] Ocurrió un error crítico durante la ejecución.
+2025-07-25 18:09:15,176 [INFO] === INICIO: Ejecución completa del sistema ===
+2025-07-25 18:09:15,177 [INFO] Iniciando scraping con Selenium desde Tienda Monge...
+2025-07-25 18:09:15,177 [INFO] Iniciando scraping en Tienda Importadora Monge...
+2025-07-25 18:12:33,260 [INFO] Scraping finalizado.
+2025-07-25 18:12:33,261 [INFO] Scraping con Selenium completado.
+2025-07-25 18:12:33,262 [INFO] Iniciando scraping de archivos estáticos (localhost)...
+2025-07-25 18:12:33,334 [INFO] Iniciando scraping desde el sitio local
+2025-07-25 18:12:37,423 [ERROR] Ocurrió un error crítico durante la ejecución.
+2025-07-25 18:13:56,301 [INFO] === INICIO: Ejecución completa del sistema ===
+2025-07-25 18:13:56,301 [INFO] Iniciando scraping con Selenium desde Tienda Monge...
+2025-07-25 18:13:56,302 [INFO] Iniciando scraping en Tienda Importadora Monge...
+2025-07-25 18:16:33,526 [INFO] Scraping finalizado.
+2025-07-25 18:16:33,527 [INFO] Scraping con Selenium completado.
+2025-07-25 18:16:33,527 [INFO] Iniciando scraping de archivos estáticos (localhost)...
+2025-07-25 18:16:33,596 [INFO] Iniciando scraping desde el sitio local
+2025-07-25 18:16:37,657 [ERROR] Ocurrió un error crítico durante la ejecución.
+2025-07-25 18:18:24,093 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5500
+2025-07-25 18:18:24,093 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-25 18:18:24,095 [INFO]  * Restarting with stat
+2025-07-25 18:18:24,391 [WARNING]  * Debugger is active!
+2025-07-25 18:18:24,399 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 18:18:36,768 [INFO] === INICIO: Ejecución completa del sistema ===
+2025-07-25 18:18:36,769 [INFO] Iniciando scraping con Selenium desde Tienda Monge...
+2025-07-25 18:18:36,769 [INFO] Iniciando scraping en Tienda Importadora Monge...
+2025-07-25 18:19:49,723 [INFO] 127.0.0.1 - - [25/Jul/2025 18:19:49] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-25 18:19:49,787 [INFO] 127.0.0.1 - - [25/Jul/2025 18:19:49] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2025-07-25 18:19:49,911 [INFO] 127.0.0.1 - - [25/Jul/2025 18:19:49] "GET /calendar.js HTTP/1.1" 200 -
+2025-07-25 18:19:49,941 [INFO] 127.0.0.1 - - [25/Jul/2025 18:19:49] "[36mGET /files.js HTTP/1.1[0m" 304 -
+2025-07-25 18:19:49,943 [INFO] 127.0.0.1 - - [25/Jul/2025 18:19:49] "[36mGET /results.js HTTP/1.1[0m" 304 -
+2025-07-25 18:19:49,965 [INFO] 127.0.0.1 - - [25/Jul/2025 18:19:49] "[36mGET /main.js HTTP/1.1[0m" 304 -
+2025-07-25 18:19:50,039 [INFO] 127.0.0.1 - - [25/Jul/2025 18:19:50] "GET /data/events.json HTTP/1.1" 200 -
+2025-07-25 18:19:50,360 [INFO] 127.0.0.1 - - [25/Jul/2025 18:19:50] "GET /data/events.json HTTP/1.1" 200 -
+2025-07-25 18:19:50,493 [INFO] 127.0.0.1 - - [25/Jul/2025 18:19:50] "[35m[1mGET /data/files.json HTTP/1.1[0m" 500 -
+2025-07-25 18:19:50,520 [INFO] 127.0.0.1 - - [25/Jul/2025 18:19:50] "GET /data/results.json HTTP/1.1" 200 -
+2025-07-25 18:19:57,552 [INFO] 127.0.0.1 - - [25/Jul/2025 18:19:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-25 18:20:01,413 [INFO] 127.0.0.1 - - [25/Jul/2025 18:20:01] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-25 18:20:01,455 [INFO] 127.0.0.1 - - [25/Jul/2025 18:20:01] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2025-07-25 18:20:01,460 [INFO] 127.0.0.1 - - [25/Jul/2025 18:20:01] "[36mGET /calendar.js HTTP/1.1[0m" 304 -
+2025-07-25 18:20:01,467 [INFO] 127.0.0.1 - - [25/Jul/2025 18:20:01] "[36mGET /results.js HTTP/1.1[0m" 304 -
+2025-07-25 18:20:01,467 [INFO] 127.0.0.1 - - [25/Jul/2025 18:20:01] "[36mGET /files.js HTTP/1.1[0m" 304 -
+2025-07-25 18:20:01,473 [INFO] 127.0.0.1 - - [25/Jul/2025 18:20:01] "[36mGET /main.js HTTP/1.1[0m" 304 -
+2025-07-25 18:20:01,495 [INFO] 127.0.0.1 - - [25/Jul/2025 18:20:01] "GET /data/events.json HTTP/1.1" 200 -
+2025-07-25 18:20:01,546 [INFO] 127.0.0.1 - - [25/Jul/2025 18:20:01] "GET /data/events.json HTTP/1.1" 200 -
+2025-07-25 18:20:01,630 [INFO] 127.0.0.1 - - [25/Jul/2025 18:20:01] "[35m[1mGET /data/files.json HTTP/1.1[0m" 500 -
+2025-07-25 18:20:01,658 [INFO] 127.0.0.1 - - [25/Jul/2025 18:20:01] "GET /data/results.json HTTP/1.1" 200 -
+2025-07-25 18:20:19,838 [INFO] Scraping finalizado.
+2025-07-25 18:20:19,839 [INFO] Scraping con Selenium completado.
+2025-07-25 18:20:19,840 [INFO] Iniciando scraping de archivos estáticos (localhost)...
+2025-07-25 18:20:19,919 [INFO] Iniciando scraping desde el sitio local
+2025-07-25 18:20:21,951 [INFO] 127.0.0.1 - - [25/Jul/2025 18:20:21] "GET / HTTP/1.1" 200 -
+2025-07-25 18:20:21,965 [INFO] Iniciando scraping HTML desde el sitio local
+2025-07-25 18:20:24,000 [INFO] 127.0.0.1 - - [25/Jul/2025 18:20:23] "GET / HTTP/1.1" 200 -
+2025-07-25 18:20:24,007 [INFO] Obteniendo archivos desde la API JSON...
+2025-07-25 18:20:26,144 [INFO] 127.0.0.1 - - [25/Jul/2025 18:20:26] "[35m[1mGET /data/files.json HTTP/1.1[0m" 500 -
+2025-07-25 18:20:26,146 [ERROR] No se pudieron obtener archivos JSON: 500
+2025-07-25 18:20:26,198 [INFO] Scraping finalizado.
+2025-07-25 18:20:26,198 [INFO] Scraping de archivos estáticos completado.
+2025-07-25 18:20:26,199 [INFO] Generando results.json desde la base de datos...
+2025-07-25 18:20:26,284 [INFO] Generando files.json desde la base de datos...
+2025-07-25 18:20:26,334 [INFO] Probando generación de selector LLM (OpenAI)...
+2025-07-25 18:20:27,494 [INFO] HTTP Request: POST https://voiceflip-openai.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions "HTTP/1.1 404 Resource Not Found"
+2025-07-25 18:20:27,496 [ERROR] Ocurrió un error crítico durante la ejecución.
+2025-07-25 18:23:01,238 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\llm\\llm_selector.py', reloading
+2025-07-25 18:23:01,278 [INFO]  * Restarting with stat
+2025-07-25 18:23:01,682 [WARNING]  * Debugger is active!
+2025-07-25 18:23:01,687 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 18:23:07,481 [INFO] === INICIO: Ejecución completa del sistema ===
+2025-07-25 18:23:07,481 [INFO] Iniciando scraping con Selenium desde Tienda Monge...
+2025-07-25 18:23:07,482 [INFO] Iniciando scraping en Tienda Importadora Monge...
+2025-07-25 18:24:54,788 [INFO] Scraping finalizado.
+2025-07-25 18:24:54,789 [INFO] Scraping con Selenium completado.
+2025-07-25 18:24:54,790 [INFO] Iniciando scraping de archivos estáticos (localhost)...
+2025-07-25 18:24:54,879 [INFO] Iniciando scraping desde el sitio local
+2025-07-25 18:24:57,081 [INFO] 127.0.0.1 - - [25/Jul/2025 18:24:57] "GET / HTTP/1.1" 200 -
+2025-07-25 18:24:57,097 [INFO] Iniciando scraping HTML desde el sitio local
+2025-07-25 18:24:59,132 [INFO] 127.0.0.1 - - [25/Jul/2025 18:24:59] "GET / HTTP/1.1" 200 -
+2025-07-25 18:24:59,147 [INFO] Obteniendo archivos desde la API JSON...
+2025-07-25 18:25:01,237 [INFO] 127.0.0.1 - - [25/Jul/2025 18:25:01] "[35m[1mGET /data/files.json HTTP/1.1[0m" 500 -
+2025-07-25 18:25:01,238 [ERROR] No se pudieron obtener archivos JSON: 500
+2025-07-25 18:25:01,291 [INFO] Scraping finalizado.
+2025-07-25 18:25:01,291 [INFO] Scraping de archivos estáticos completado.
+2025-07-25 18:25:01,291 [INFO] Generando results.json desde la base de datos...
+2025-07-25 18:25:01,400 [INFO] Generando files.json desde la base de datos...
+2025-07-25 18:25:01,442 [INFO] Probando generación de selector LLM (OpenAI)...
+2025-07-25 18:25:02,625 [INFO] HTTP Request: POST https://voiceflip-openai.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions/openai/deployments/gpt-4o-mini/chat/completions "HTTP/1.1 404 Resource Not Found"
+2025-07-25 18:25:02,628 [ERROR] Ocurrió un error crítico durante la ejecución.
+2025-07-25 18:30:34,051 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\llm\\llm_selector.py', reloading
+2025-07-25 18:30:34,085 [INFO]  * Restarting with stat
+2025-07-25 18:30:35,839 [WARNING]  * Debugger is active!
+2025-07-25 18:30:35,844 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 18:32:18,713 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\llm\\llm_selector.py', reloading
+2025-07-25 18:32:18,750 [INFO]  * Restarting with stat
+2025-07-25 18:32:19,042 [WARNING]  * Debugger is active!
+2025-07-25 18:32:19,046 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 18:32:42,230 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\llm\\llm_selector.py', reloading
+2025-07-25 18:32:42,271 [INFO]  * Restarting with stat
+2025-07-25 18:32:42,633 [WARNING]  * Debugger is active!
+2025-07-25 18:32:42,637 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 18:33:41,225 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\prueba.py', reloading
+2025-07-25 18:33:41,269 [INFO]  * Restarting with stat
+2025-07-25 18:33:41,677 [WARNING]  * Debugger is active!
+2025-07-25 18:33:41,681 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 18:33:52,779 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\prueba.py', reloading
+2025-07-25 18:33:52,829 [INFO]  * Restarting with stat
+2025-07-25 18:33:53,217 [WARNING]  * Debugger is active!
+2025-07-25 18:33:53,221 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 18:33:55,247 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\llm\\llm_selector.py', reloading
+2025-07-25 18:33:55,288 [INFO]  * Restarting with stat
+2025-07-25 18:33:55,596 [WARNING]  * Debugger is active!
+2025-07-25 18:33:55,598 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 18:45:45,548 [INFO] === INICIO: Ejecución completa del sistema ===
+2025-07-25 18:45:45,548 [INFO] Iniciando scraping con Selenium desde Tienda Monge...
+2025-07-25 18:45:45,548 [INFO] Iniciando scraping en Tienda Importadora Monge...
+2025-07-25 18:47:19,922 [INFO] Scraping finalizado.
+2025-07-25 18:47:19,924 [INFO] Scraping con Selenium completado.
+2025-07-25 18:47:19,926 [INFO] Iniciando scraping de archivos estáticos (localhost)...
+2025-07-25 18:47:20,014 [INFO] Iniciando scraping desde el sitio local
+2025-07-25 18:47:22,114 [INFO] 127.0.0.1 - - [25/Jul/2025 18:47:22] "GET / HTTP/1.1" 200 -
+2025-07-25 18:47:22,119 [INFO] Iniciando scraping HTML desde el sitio local
+2025-07-25 18:47:24,161 [INFO] 127.0.0.1 - - [25/Jul/2025 18:47:24] "GET / HTTP/1.1" 200 -
+2025-07-25 18:47:24,178 [INFO] Obteniendo archivos desde la API JSON...
+2025-07-25 18:47:26,305 [INFO] 127.0.0.1 - - [25/Jul/2025 18:47:26] "[35m[1mGET /data/files.json HTTP/1.1[0m" 500 -
+2025-07-25 18:47:26,306 [ERROR] No se pudieron obtener archivos JSON: 500
+2025-07-25 18:47:26,362 [INFO] Scraping finalizado.
+2025-07-25 18:47:26,363 [INFO] Scraping de archivos estáticos completado.
+2025-07-25 18:47:26,363 [INFO] Generando results.json desde la base de datos...
+2025-07-25 18:47:26,458 [INFO] Generando files.json desde la base de datos...
+2025-07-25 18:47:26,505 [INFO] Probando generación de selector LLM (OpenAI)...
+2025-07-25 18:47:27,526 [INFO] HTTP Request: POST https://voiceflip-openai.openai.azure.com/openai/chat/completions?api-version=2023-12-01-preview "HTTP/1.1 404 Resource Not Found"
+2025-07-25 18:47:27,530 [ERROR] Ocurrió un error crítico durante la ejecución.
+2025-07-25 18:57:55,519 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\llm\\llm_selector.py', reloading
+2025-07-25 18:57:55,595 [INFO]  * Restarting with stat
+2025-07-25 18:57:55,980 [WARNING]  * Debugger is active!
+2025-07-25 18:57:55,984 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 18:58:45,643 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\prueba.py', reloading
+2025-07-25 18:58:45,779 [INFO]  * Restarting with stat
+2025-07-25 18:58:46,149 [WARNING]  * Debugger is active!
+2025-07-25 18:58:46,152 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 19:01:33,780 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\llm\\llm_selector.py', reloading
+2025-07-25 19:01:33,812 [INFO]  * Restarting with stat
+2025-07-25 19:01:34,155 [WARNING]  * Debugger is active!
+2025-07-25 19:01:34,157 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 19:02:08,796 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\llm\\llm_selector.py', reloading
+2025-07-25 19:02:08,837 [INFO]  * Restarting with stat
+2025-07-25 19:02:09,158 [WARNING]  * Debugger is active!
+2025-07-25 19:02:09,161 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 19:02:24,322 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\llm\\llm_selector.py', reloading
+2025-07-25 19:02:24,376 [INFO]  * Restarting with stat
+2025-07-25 19:02:24,680 [WARNING]  * Debugger is active!
+2025-07-25 19:02:24,683 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 19:04:05,700 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\llm\\llm_selector.py', reloading
+2025-07-25 19:04:05,737 [INFO]  * Restarting with stat
+2025-07-25 19:04:06,152 [WARNING]  * Debugger is active!
+2025-07-25 19:04:06,155 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 19:06:18,267 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\llm\\llm_selector.py', reloading
+2025-07-25 19:06:18,334 [INFO]  * Restarting with stat
+2025-07-25 19:06:18,714 [WARNING]  * Debugger is active!
+2025-07-25 19:06:18,718 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 19:08:49,738 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\llm\\llm_selector.py', reloading
+2025-07-25 19:08:49,837 [INFO]  * Restarting with stat
+2025-07-25 19:08:50,240 [WARNING]  * Debugger is active!
+2025-07-25 19:08:50,245 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 21:32:16,624 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\llm\\llm_selector.py', reloading
+2025-07-25 21:32:16,656 [INFO]  * Restarting with stat
+2025-07-25 21:32:16,898 [WARNING]  * Debugger is active!
+2025-07-25 21:32:16,901 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 21:33:22,649 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\prueba.py', reloading
+2025-07-25 21:33:22,685 [INFO]  * Restarting with stat
+2025-07-25 21:33:22,914 [WARNING]  * Debugger is active!
+2025-07-25 21:33:22,917 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 21:34:22,459 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\llm\\llm_selector.py', reloading
+2025-07-25 21:34:22,492 [INFO]  * Restarting with stat
+2025-07-25 21:34:22,741 [WARNING]  * Debugger is active!
+2025-07-25 21:34:22,744 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 21:38:11,473 [INFO] === INICIO: Ejecución completa del sistema ===
+2025-07-25 21:38:11,473 [INFO] Iniciando scraping con Selenium desde Tienda Monge...
+2025-07-25 21:38:11,473 [INFO] Iniciando scraping en Tienda Importadora Monge...
+2025-07-25 21:39:38,427 [INFO] Scraping finalizado.
+2025-07-25 21:39:38,427 [INFO] Scraping con Selenium completado.
+2025-07-25 21:39:38,428 [INFO] Iniciando scraping de archivos estáticos (localhost)...
+2025-07-25 21:39:38,508 [INFO] Iniciando scraping desde el sitio local
+2025-07-25 21:39:40,605 [INFO] 127.0.0.1 - - [25/Jul/2025 21:39:40] "GET / HTTP/1.1" 200 -
+2025-07-25 21:39:40,608 [INFO] Iniciando scraping HTML desde el sitio local
+2025-07-25 21:39:42,633 [INFO] 127.0.0.1 - - [25/Jul/2025 21:39:42] "GET / HTTP/1.1" 200 -
+2025-07-25 21:39:42,638 [INFO] Obteniendo archivos desde la API JSON...
+2025-07-25 21:39:44,750 [INFO] 127.0.0.1 - - [25/Jul/2025 21:39:44] "[35m[1mGET /data/files.json HTTP/1.1[0m" 500 -
+2025-07-25 21:39:44,751 [ERROR] No se pudieron obtener archivos JSON: 500
+2025-07-25 21:39:44,913 [INFO] Scraping finalizado.
+2025-07-25 21:39:44,914 [INFO] Scraping de archivos estáticos completado.
+2025-07-25 21:39:44,914 [INFO] Generando results.json desde la base de datos...
+2025-07-25 21:39:44,983 [INFO] Generando files.json desde la base de datos...
+2025-07-25 21:39:45,018 [INFO] Probando generación de selector LLM (OpenAI)...
+2025-07-25 21:39:45,840 [INFO] HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 21:39:45,845 [INFO] === FIN: Ejecución completa del sistema ===
+2025-07-25 21:42:19,494 [INFO] 127.0.0.1 - - [25/Jul/2025 21:42:19] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-25 21:42:19,609 [INFO] 127.0.0.1 - - [25/Jul/2025 21:42:19] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2025-07-25 21:42:19,628 [INFO] 127.0.0.1 - - [25/Jul/2025 21:42:19] "[36mGET /calendar.js HTTP/1.1[0m" 304 -
+2025-07-25 21:42:19,629 [INFO] 127.0.0.1 - - [25/Jul/2025 21:42:19] "[36mGET /results.js HTTP/1.1[0m" 304 -
+2025-07-25 21:42:19,629 [INFO] 127.0.0.1 - - [25/Jul/2025 21:42:19] "[36mGET /main.js HTTP/1.1[0m" 304 -
+2025-07-25 21:42:19,630 [INFO] 127.0.0.1 - - [25/Jul/2025 21:42:19] "[36mGET /files.js HTTP/1.1[0m" 304 -
+2025-07-25 21:42:19,688 [INFO] 127.0.0.1 - - [25/Jul/2025 21:42:19] "GET /data/events.json HTTP/1.1" 200 -
+2025-07-25 21:42:19,805 [INFO] 127.0.0.1 - - [25/Jul/2025 21:42:19] "GET /data/events.json HTTP/1.1" 200 -
+2025-07-25 21:42:19,891 [INFO] 127.0.0.1 - - [25/Jul/2025 21:42:19] "[35m[1mGET /data/files.json HTTP/1.1[0m" 500 -
+2025-07-25 21:42:19,904 [INFO] 127.0.0.1 - - [25/Jul/2025 21:42:19] "GET /data/results.json HTTP/1.1" 200 -
+2025-07-25 21:43:29,753 [INFO] === INICIO: Ejecución completa del sistema ===
+2025-07-25 21:43:29,753 [INFO] Iniciando scraping con Selenium desde Tienda Monge...
+2025-07-25 21:43:29,753 [INFO] Iniciando scraping en Tienda Importadora Monge...
+2025-07-25 21:45:45,263 [INFO] Scraping finalizado.
+2025-07-25 21:45:45,264 [INFO] Scraping con Selenium completado.
+2025-07-25 21:45:45,264 [INFO] Iniciando scraping de archivos estáticos (localhost)...
+2025-07-25 21:45:45,374 [INFO] Iniciando scraping desde el sitio local
+2025-07-25 21:45:49,462 [ERROR] Ocurrió un error crítico durante la ejecución.
+2025-07-25 21:46:37,093 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5500
+2025-07-25 21:46:37,093 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-25 21:46:37,094 [INFO]  * Restarting with stat
+2025-07-25 21:46:37,383 [WARNING]  * Debugger is active!
+2025-07-25 21:46:37,386 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 21:46:39,845 [INFO] 127.0.0.1 - - [25/Jul/2025 21:46:39] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-25 21:46:39,873 [INFO] 127.0.0.1 - - [25/Jul/2025 21:46:39] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2025-07-25 21:46:39,876 [INFO] 127.0.0.1 - - [25/Jul/2025 21:46:39] "[36mGET /calendar.js HTTP/1.1[0m" 304 -
+2025-07-25 21:46:39,878 [INFO] 127.0.0.1 - - [25/Jul/2025 21:46:39] "[36mGET /results.js HTTP/1.1[0m" 304 -
+2025-07-25 21:46:39,881 [INFO] 127.0.0.1 - - [25/Jul/2025 21:46:39] "[36mGET /files.js HTTP/1.1[0m" 304 -
+2025-07-25 21:46:39,882 [INFO] 127.0.0.1 - - [25/Jul/2025 21:46:39] "[36mGET /main.js HTTP/1.1[0m" 304 -
+2025-07-25 21:46:40,091 [INFO] 127.0.0.1 - - [25/Jul/2025 21:46:40] "GET /data/events.json HTTP/1.1" 200 -
+2025-07-25 21:46:40,142 [INFO] 127.0.0.1 - - [25/Jul/2025 21:46:40] "GET /data/events.json HTTP/1.1" 200 -
+2025-07-25 21:46:40,216 [INFO] 127.0.0.1 - - [25/Jul/2025 21:46:40] "[35m[1mGET /data/files.json HTTP/1.1[0m" 500 -
+2025-07-25 21:46:40,235 [INFO] 127.0.0.1 - - [25/Jul/2025 21:46:40] "GET /data/results.json HTTP/1.1" 200 -
+2025-07-25 21:47:24,259 [INFO] === INICIO: Ejecución completa del sistema ===
+2025-07-25 21:47:24,260 [INFO] Iniciando scraping con Selenium desde Tienda Monge...
+2025-07-25 21:47:24,260 [INFO] Iniciando scraping en Tienda Importadora Monge...
+2025-07-25 21:49:24,346 [INFO] Scraping finalizado.
+2025-07-25 21:49:24,346 [INFO] Scraping con Selenium completado.
+2025-07-25 21:49:24,347 [INFO] Iniciando scraping de archivos estáticos (localhost)...
+2025-07-25 21:49:24,445 [INFO] Iniciando scraping desde el sitio local
+2025-07-25 21:49:26,492 [INFO] 127.0.0.1 - - [25/Jul/2025 21:49:26] "GET / HTTP/1.1" 200 -
+2025-07-25 21:49:26,515 [INFO] Iniciando scraping HTML desde el sitio local
+2025-07-25 21:49:28,576 [INFO] 127.0.0.1 - - [25/Jul/2025 21:49:28] "GET / HTTP/1.1" 200 -
+2025-07-25 21:49:28,588 [INFO] Obteniendo archivos desde la API JSON...
+2025-07-25 21:49:30,687 [INFO] 127.0.0.1 - - [25/Jul/2025 21:49:30] "[35m[1mGET /data/files.json HTTP/1.1[0m" 500 -
+2025-07-25 21:49:30,688 [ERROR] No se pudieron obtener archivos JSON: 500
+2025-07-25 21:49:30,739 [INFO] Scraping finalizado.
+2025-07-25 21:49:30,740 [INFO] Scraping de archivos estáticos completado.
+2025-07-25 21:49:30,740 [INFO] Generando results.json desde la base de datos...
+2025-07-25 21:49:30,816 [INFO] Generando files.json desde la base de datos...
+2025-07-25 21:49:30,851 [INFO] Probando generación de selector LLM (OpenAI)...
+2025-07-25 21:49:31,329 [INFO] HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 21:49:31,333 [INFO] === FIN: Ejecución completa del sistema ===
+2025-07-25 21:52:18,119 [INFO]  * Detected change in 'C:\\Users\\rafad\\Music\\ProyectoScrapingMonge\\main.py', reloading
+2025-07-25 21:52:18,171 [INFO]  * Restarting with stat
+2025-07-25 21:52:18,485 [WARNING]  * Debugger is active!
+2025-07-25 21:52:18,487 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 22:03:44,466 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5500
+2025-07-25 22:03:44,466 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-25 22:03:44,468 [INFO]  * Restarting with stat
+2025-07-25 22:03:44,732 [WARNING]  * Debugger is active!
+2025-07-25 22:03:44,735 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 22:03:49,275 [INFO] 127.0.0.1 - - [25/Jul/2025 22:03:49] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-25 22:03:49,352 [INFO] 127.0.0.1 - - [25/Jul/2025 22:03:49] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2025-07-25 22:03:49,361 [INFO] 127.0.0.1 - - [25/Jul/2025 22:03:49] "[36mGET /main.js HTTP/1.1[0m" 304 -
+2025-07-25 22:03:49,365 [INFO] 127.0.0.1 - - [25/Jul/2025 22:03:49] "[36mGET /calendar.js HTTP/1.1[0m" 304 -
+2025-07-25 22:03:49,365 [INFO] 127.0.0.1 - - [25/Jul/2025 22:03:49] "[36mGET /results.js HTTP/1.1[0m" 304 -
+2025-07-25 22:03:49,366 [INFO] 127.0.0.1 - - [25/Jul/2025 22:03:49] "[36mGET /files.js HTTP/1.1[0m" 304 -
+2025-07-25 22:03:49,477 [INFO] 127.0.0.1 - - [25/Jul/2025 22:03:49] "GET /data/events.json HTTP/1.1" 200 -
+2025-07-25 22:03:49,622 [INFO] 127.0.0.1 - - [25/Jul/2025 22:03:49] "GET /data/events.json HTTP/1.1" 200 -
+2025-07-25 22:03:49,721 [INFO] 127.0.0.1 - - [25/Jul/2025 22:03:49] "[35m[1mGET /data/files.json HTTP/1.1[0m" 500 -
+2025-07-25 22:03:49,732 [INFO] 127.0.0.1 - - [25/Jul/2025 22:03:49] "GET /data/results.json HTTP/1.1" 200 -
+2025-07-25 22:04:36,284 [INFO] === INICIO: Ejecución completa del sistema ===
+2025-07-25 22:04:36,284 [INFO] Iniciando scraping con Selenium desde Tienda Monge...
+2025-07-25 22:04:36,285 [INFO] Iniciando scraping en Tienda Importadora Monge...
+2025-07-25 22:06:10,327 [INFO] Scraping finalizado.
+2025-07-25 22:06:10,329 [INFO] Scraping con Selenium completado.
+2025-07-25 22:06:10,330 [INFO] Iniciando scraping de archivos estáticos (localhost)...
+2025-07-25 22:06:10,427 [INFO] Iniciando scraping desde el sitio local
+2025-07-25 22:06:12,485 [INFO] 127.0.0.1 - - [25/Jul/2025 22:06:12] "GET / HTTP/1.1" 200 -
+2025-07-25 22:06:12,490 [INFO] Iniciando scraping HTML desde el sitio local
+2025-07-25 22:06:14,545 [INFO] 127.0.0.1 - - [25/Jul/2025 22:06:14] "GET / HTTP/1.1" 200 -
+2025-07-25 22:06:14,564 [INFO] Obteniendo archivos desde la API JSON...
+2025-07-25 22:06:16,709 [INFO] 127.0.0.1 - - [25/Jul/2025 22:06:16] "[35m[1mGET /data/files.json HTTP/1.1[0m" 500 -
+2025-07-25 22:06:16,712 [ERROR] No se pudieron obtener archivos JSON: 500
+2025-07-25 22:06:16,759 [INFO] Scraping finalizado.
+2025-07-25 22:06:16,760 [INFO] Scraping de archivos estáticos completado.
+2025-07-25 22:06:16,760 [INFO] Generando results.json desde la base de datos...
+2025-07-25 22:06:16,837 [INFO] Generando files.json desde la base de datos...
+2025-07-25 22:06:16,874 [INFO] Probando generación de selector LLM (OpenAI)...
+2025-07-25 22:06:17,717 [INFO] HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 22:06:17,718 [INFO] === FIN: Ejecución completa del sistema ===
+2025-07-25 22:16:43,218 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5500
+2025-07-25 22:16:43,218 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-25 22:16:43,219 [INFO]  * Restarting with stat
+2025-07-25 22:16:43,453 [WARNING]  * Debugger is active!
+2025-07-25 22:16:43,455 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 22:16:47,553 [INFO] 127.0.0.1 - - [25/Jul/2025 22:16:47] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-25 22:16:47,615 [INFO] 127.0.0.1 - - [25/Jul/2025 22:16:47] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2025-07-25 22:16:47,631 [INFO] 127.0.0.1 - - [25/Jul/2025 22:16:47] "[36mGET /calendar.js HTTP/1.1[0m" 304 -
+2025-07-25 22:16:47,631 [INFO] 127.0.0.1 - - [25/Jul/2025 22:16:47] "[36mGET /results.js HTTP/1.1[0m" 304 -
+2025-07-25 22:16:47,632 [INFO] 127.0.0.1 - - [25/Jul/2025 22:16:47] "[36mGET /main.js HTTP/1.1[0m" 304 -
+2025-07-25 22:16:47,632 [INFO] 127.0.0.1 - - [25/Jul/2025 22:16:47] "[36mGET /files.js HTTP/1.1[0m" 304 -
+2025-07-25 22:16:47,725 [INFO] 127.0.0.1 - - [25/Jul/2025 22:16:47] "GET /data/events.json HTTP/1.1" 200 -
+2025-07-25 22:16:47,886 [INFO] 127.0.0.1 - - [25/Jul/2025 22:16:47] "GET /data/events.json HTTP/1.1" 200 -
+2025-07-25 22:16:48,019 [INFO] 127.0.0.1 - - [25/Jul/2025 22:16:48] "[35m[1mGET /data/files.json HTTP/1.1[0m" 500 -
+2025-07-25 22:16:48,044 [INFO] 127.0.0.1 - - [25/Jul/2025 22:16:48] "GET /data/results.json HTTP/1.1" 200 -
+2025-07-25 22:17:02,423 [INFO] === INICIO: Ejecución completa del sistema ===
+2025-07-25 22:17:02,424 [INFO] Iniciando scraping con Selenium desde Tienda Monge...
+2025-07-25 22:17:02,424 [INFO] Iniciando scraping en Tienda Importadora Monge...
+2025-07-25 22:18:32,807 [INFO] Scraping finalizado.
+2025-07-25 22:18:32,808 [INFO] Scraping con Selenium completado.
+2025-07-25 22:18:32,809 [INFO] Iniciando scraping de archivos estáticos (localhost)...
+2025-07-25 22:18:32,887 [INFO] Iniciando scraping desde el sitio local
+2025-07-25 22:18:34,940 [INFO] 127.0.0.1 - - [25/Jul/2025 22:18:34] "GET / HTTP/1.1" 200 -
+2025-07-25 22:18:34,950 [INFO] Iniciando scraping HTML desde el sitio local
+2025-07-25 22:18:36,980 [INFO] 127.0.0.1 - - [25/Jul/2025 22:18:36] "GET / HTTP/1.1" 200 -
+2025-07-25 22:18:36,984 [INFO] Obteniendo archivos desde la API JSON...
+2025-07-25 22:18:39,106 [INFO] 127.0.0.1 - - [25/Jul/2025 22:18:39] "[35m[1mGET /data/files.json HTTP/1.1[0m" 500 -
+2025-07-25 22:18:39,107 [ERROR] No se pudieron obtener archivos JSON: 500
+2025-07-25 22:18:39,160 [INFO] Scraping finalizado.
+2025-07-25 22:18:39,161 [INFO] Scraping de archivos estáticos completado.
+2025-07-25 22:18:39,161 [INFO] Generando results.json desde la base de datos...
+2025-07-25 22:18:39,252 [INFO] Generando files.json desde la base de datos...
+2025-07-25 22:18:39,295 [INFO] Probando generación de selector LLM (OpenAI)...
+2025-07-25 22:18:39,765 [INFO] HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 22:18:39,776 [INFO] === FIN: Ejecución completa del sistema ===
+2025-07-25 22:26:16,281 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5500
+2025-07-25 22:26:16,281 [INFO] [33mPress CTRL+C to quit[0m
+2025-07-25 22:26:16,282 [INFO]  * Restarting with stat
+2025-07-25 22:26:16,528 [WARNING]  * Debugger is active!
+2025-07-25 22:26:16,530 [INFO]  * Debugger PIN: 908-989-525
+2025-07-25 22:26:26,640 [INFO] === INICIO: Ejecución completa del sistema ===
+2025-07-25 22:26:26,640 [INFO] Iniciando scraping con Selenium desde Tienda Monge...
+2025-07-25 22:26:26,640 [INFO] Iniciando scraping en Tienda Importadora Monge...
+2025-07-25 22:28:37,246 [INFO] Scraping finalizado.
+2025-07-25 22:28:37,248 [INFO] Scraping con Selenium completado.
+2025-07-25 22:28:37,249 [INFO] Iniciando scraping de archivos estáticos (localhost)...
+2025-07-25 22:28:37,348 [INFO] Iniciando scraping desde el sitio local
+2025-07-25 22:28:39,428 [INFO] 127.0.0.1 - - [25/Jul/2025 22:28:39] "GET / HTTP/1.1" 200 -
+2025-07-25 22:28:39,431 [INFO] Iniciando scraping HTML desde el sitio local
+2025-07-25 22:28:41,487 [INFO] 127.0.0.1 - - [25/Jul/2025 22:28:41] "GET / HTTP/1.1" 200 -
+2025-07-25 22:28:41,497 [INFO] Obteniendo archivos desde la API JSON...
+2025-07-25 22:28:43,576 [INFO] 127.0.0.1 - - [25/Jul/2025 22:28:43] "[35m[1mGET /data/files.json HTTP/1.1[0m" 500 -
+2025-07-25 22:28:43,578 [ERROR] No se pudieron obtener archivos JSON: 500
+2025-07-25 22:28:43,617 [INFO] Scraping finalizado.
+2025-07-25 22:28:43,617 [INFO] Scraping de archivos estáticos completado.
+2025-07-25 22:28:43,617 [INFO] Generando results.json desde la base de datos...
+2025-07-25 22:28:43,696 [INFO] Generando files.json desde la base de datos...
+2025-07-25 22:28:43,735 [INFO] Probando generación de selector LLM (OpenAI)...
+2025-07-25 22:28:44,191 [INFO] HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-25 22:28:44,195 [INFO] === FIN: Ejecución completa del sistema ===
+2025-07-25 22:29:21,662 [INFO] 127.0.0.1 - - [25/Jul/2025 22:29:21] "[36mGET / HTTP/1.1[0m" 304 -
+2025-07-25 22:29:21,727 [INFO] 127.0.0.1 - - [25/Jul/2025 22:29:21] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+2025-07-25 22:29:21,732 [INFO] 127.0.0.1 - - [25/Jul/2025 22:29:21] "[36mGET /calendar.js HTTP/1.1[0m" 304 -
+2025-07-25 22:29:21,733 [INFO] 127.0.0.1 - - [25/Jul/2025 22:29:21] "[36mGET /results.js HTTP/1.1[0m" 304 -
+2025-07-25 22:29:21,735 [INFO] 127.0.0.1 - - [25/Jul/2025 22:29:21] "[36mGET /files.js HTTP/1.1[0m" 304 -
+2025-07-25 22:29:21,736 [INFO] 127.0.0.1 - - [25/Jul/2025 22:29:21] "[36mGET /main.js HTTP/1.1[0m" 304 -
+2025-07-25 22:29:21,784 [INFO] 127.0.0.1 - - [25/Jul/2025 22:29:21] "GET /data/events.json HTTP/1.1" 200 -
+2025-07-25 22:29:21,828 [INFO] 127.0.0.1 - - [25/Jul/2025 22:29:21] "GET /data/events.json HTTP/1.1" 200 -
+2025-07-25 22:29:21,903 [INFO] 127.0.0.1 - - [25/Jul/2025 22:29:21] "[35m[1mGET /data/files.json HTTP/1.1[0m" 500 -
+2025-07-25 22:29:22,002 [INFO] 127.0.0.1 - - [25/Jul/2025 22:29:22] "GET /data/results.json HTTP/1.1" 200 -
+2025-07-25 22:31:07,492 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-25 22:31:07,493 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-25 22:31:07,494 [INFO] Iniciando scraping en Tienda Importadora Monge...
+2025-07-25 22:32:46,783 [INFO] Scraping finalizado.
+2025-07-25 22:32:46,926 [INFO] Added job "ejecutar_scraping_y_actualizar_json" to job store "default"
+2025-07-25 22:32:46,927 [INFO] Added job "ejecutar_proceso_completo" to job store "default"
+2025-07-25 22:32:46,927 [INFO] Scheduler started
