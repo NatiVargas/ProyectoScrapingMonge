@@ -99,7 +99,8 @@ localhost
 Crear un archivo `.env` con tu clave:
 
 ```
-OPENAI_API_KEY=tu_clave
+MISTRAL_API_KEY=TU_API_KEY
+MISTRAL_MODEL=MODELO_DE_IA
 ```
 
 ---
