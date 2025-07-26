@@ -94,7 +94,7 @@ localhost
 5432
 ```
 
-### 🔑 Configurar LLM (opcional)
+### 🔑 Configurar LLM (obligatorio)
 
 Crear un archivo `.env` con tu clave:
 
